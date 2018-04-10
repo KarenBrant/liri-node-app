@@ -55,21 +55,21 @@ function myTweets() {
 function spotifyThis() {
     var songName;
 
+    // Tried to get apostrophes to work, but replace didn't help
     if (process.argv[3]) {
-        songName = process.argv[3];
-
+        songName = process.argv[3].replace("'", "\'");
+       
         var i=4;
         while (process.argv[i]) {
-            songName = songName.concat(" " + process.argv[i]);
-            console.log(songName);
+            songName = songName.concat(" " + process.argv[i].replace("'", "\'"));
             i++;
         }
-
-    spotifySearch(songName);
+        
+        console.log(songName);
+        spotifySearch(songName);
 
     // If no song is entered, then this will pull "The Sign"
     } else {
-        songName = 'The+Sign';
         var spotify = new Spotify(keys.spotify);
         spotify.search({type: 'track', query: 'the%20sign'}, function (err, data) {
             if (err) {
