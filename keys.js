@@ -1,7 +1,3 @@
-// module.exports = {
-//     Sp_id: 'ba97391b0f3f4cc0989825b380daa5a9',
-//     Sp_secret: '876637e8d2cb4605832aa8fa7403d2dd'
-// };
 
 console.log('this is loaded');
 
