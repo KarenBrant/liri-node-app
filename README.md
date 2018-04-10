@@ -4,10 +4,10 @@ Program to get information from Twitter, Spotify, or OMDB movie database.
 **General Information:** 
 Developer - Karen Brant,
 Languages/Frameworks - node.js. Getting started: This program allows the user to input one of the following commands:
-1 - my-tweets
-2 - spotify-this-song
-3 - movie-this
-4 - do-what-it-says
+1. my-tweets
+2. spotify-this-song
+3. movie-this
+4. do-what-it-says
 
 If #2 is chosen, then the user should type a space and then enter a song name.  If #3 is chosen, then the user should type
 a space and then a movie name.
