@@ -18,6 +18,7 @@ If #3 is chosen, then the user should type a space and then a movie name. If the
 #4 will do what a random.txt file tells it to do - currently it is to print information about the song 'I want it that way'.
 
 * Screenshots show how this works:
+
 <img width="581" alt="screen shot 2018-04-26 at 4 13 29 pm" src="https://user-images.githubusercontent.com/32180705/39329926-e2e7452c-496d-11e8-88da-e12cb2e7dd66.png">
 <img width="587" alt="screen shot 2018-04-26 at 4 14 25 pm" src="https://user-images.githubusercontent.com/32180705/39329930-e6311db6-496d-11e8-926c-ab2a4c18281a.png">
 <img width="591" alt="screen shot 2018-04-26 at 4 14 46 pm" src="https://user-images.githubusercontent.com/32180705/39329937-e9702f80-496d-11e8-868e-fad36c66a1ce.png">
